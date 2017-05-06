@@ -1,0 +1,202 @@
+Started GET "/" for ::1 at 2017-05-05 20:31:26 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/andrewstuntz/.rvm/gems/ruby-2.4.1@andrewstuntz/gems/railties-5.1.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/andrewstuntz/.rvm/gems/ruby-2.4.1@andrewstuntz/gems/railties-5.1.0/lib/rails/templates/rails/welcome/index.html.erb (3.1ms)
+Completed 200 OK in 187ms (Views: 8.6ms)
+
+
+Started GET "/" for ::1 at 2017-05-05 20:33:04 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/andrewstuntz/.rvm/gems/ruby-2.4.1@andrewstuntz/gems/railties-5.1.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/andrewstuntz/.rvm/gems/ruby-2.4.1@andrewstuntz/gems/railties-5.1.0/lib/rails/templates/rails/welcome/index.html.erb (3.6ms)
+Completed 200 OK in 147ms (Views: 8.0ms)
+
+
+Started GET "/home" for ::1 at 2017-05-05 20:33:25 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+actionpack (5.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.0) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/Users/andrewstuntz/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/Users/andrewstuntz/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/Users/andrewstuntz/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+Started GET "/root" for ::1 at 2017-05-05 20:33:28 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/root"):
+  
+actionpack (5.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.0) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/Users/andrewstuntz/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/Users/andrewstuntz/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/Users/andrewstuntz/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+Started GET "/" for ::1 at 2017-05-05 20:36:33 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html within layouts/application
+  Rendered home/index.html within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 1180ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `resume_path' for #<#<Class:0x007fa65a437968>:0x007fa65a4968f0>):
+    22: 	      <i class='fa fa-home' aria-hidden='true' href='javascript:void(0)'></i><%= link_to 'Home', root_path%>
+    23: 	    </div>
+    24: 	    <div class='link-wrapper'>
+    25: 	      <i class='fa fa-file-text' aria-hidden='true' href='javascript:void(0)'></i><%= link_to 'Resume', resume_path%>
+    26: 	    </div>
+    27: 	    <div class='link-wrapper'>
+    28: 	      <a class=big-icons href=href='https://www.github.com/drews256'>
+  
+app/views/layouts/application.html.erb:25:in `_app_views_layouts_application_html_erb__3254673912817484074_70176228321760'
+Started GET "/" for ::1 at 2017-05-05 20:39:00 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html within layouts/application
+  Rendered home/index.html within layouts/application (0.7ms)
+Completed 200 OK in 276ms (Views: 151.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-05 20:39:53 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html within layouts/application
+  Rendered home/index.html within layouts/application (0.3ms)
+Completed 200 OK in 18ms (Views: 16.2ms)
+
+
+Started GET "/" for ::1 at 2017-05-05 20:39:55 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html within layouts/application
+  Rendered home/index.html within layouts/application (0.3ms)
+Completed 200 OK in 28ms (Views: 26.8ms)
+
+
+Started GET "/" for ::1 at 2017-05-05 20:40:07 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html within layouts/application
+  Rendered home/index.html within layouts/application (0.5ms)
+Completed 200 OK in 27ms (Views: 25.4ms)
+
+
+Started GET "/resume" for ::1 at 2017-05-05 20:40:11 -0700
+Processing by ResumeController#index as HTML
+  Rendering resume/index.html.erb within layouts/application
+  Rendered resume/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 24ms (Views: 21.2ms)
+
+
+Started GET "/" for ::1 at 2017-05-05 20:43:13 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html within layouts/application
+  Rendered home/index.html within layouts/application (0.4ms)
+Completed 200 OK in 228ms (Views: 226.3ms)
+
+
+Started GET "/" for ::1 at 2017-05-05 20:45:08 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html within layouts/application
+  Rendered home/index.html within layouts/application (0.2ms)
+Completed 200 OK in 222ms (Views: 220.5ms)
+
+
+Started GET "/" for ::1 at 2017-05-05 20:46:12 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html within layouts/application
+  Rendered home/index.html within layouts/application (0.3ms)
+Completed 200 OK in 16ms (Views: 13.9ms)
+
+
+Started GET "/" for ::1 at 2017-05-05 20:46:13 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html within layouts/application
+  Rendered home/index.html within layouts/application (0.3ms)
+Completed 200 OK in 14ms (Views: 12.9ms)
+
+
+Started GET "/" for ::1 at 2017-05-05 20:50:31 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html within layouts/application
+  Rendered home/index.html within layouts/application (0.2ms)
+Completed 200 OK in 210ms (Views: 209.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-05 20:50:33 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html within layouts/application
+  Rendered home/index.html within layouts/application (0.2ms)
+Completed 200 OK in 14ms (Views: 12.3ms)
+
+
+Started GET "/resume" for ::1 at 2017-05-05 20:50:35 -0700
+Processing by ResumeController#index as HTML
+  Rendering resume/index.html.erb within layouts/application
+  Rendered resume/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 17ms (Views: 15.1ms)
+
+
+Started GET "/resume" for ::1 at 2017-05-05 20:51:33 -0700
+Processing by ResumeController#index as HTML
+  Rendering resume/index.html.erb within layouts/application
+  Rendered resume/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 214ms (Views: 212.3ms)
+
+
+Started GET "/resume" for ::1 at 2017-05-05 20:52:43 -0700
+Processing by ResumeController#index as HTML
+  Rendering resume/index.html.erb within layouts/application
+  Rendered resume/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 16.0ms)
+
+
+Started GET "/resume" for ::1 at 2017-05-05 20:54:11 -0700
+Processing by ResumeController#index as HTML
+  Rendering resume/index.html.erb within layouts/application
+  Rendered resume/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 13ms (Views: 11.8ms)
+
+
+Started GET "/resume" for ::1 at 2017-05-05 20:54:13 -0700
+Processing by ResumeController#index as HTML
+  Rendering resume/index.html.erb within layouts/application
+  Rendered resume/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 14ms (Views: 12.5ms)
+
+
