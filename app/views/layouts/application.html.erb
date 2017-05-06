@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Andrew Stuntz</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <table>
+    <tbody>
+      <tr class= 'white'>
+	<td class= 'quarter'>
+	  <%= image_tag 'ProfilePicture.jpg' %>
+	</td>
+	<td class= 'half'>
+          <%= yield %>
+	</td>
+	<td class= 'quarter sidebar'>
+	  <div class='sidebar-links'>
+  	    <div class='link-wrapper'>
+	      <i class='fa fa-home' aria-hidden='true' href='javascript:void(0)'></i><%= link_to 'Home', root_path%>
+	    </div>
+	    <div class='link-wrapper'>
+	      <i class='fa fa-file-text' aria-hidden='true' href='javascript:void(0)'></i><%= link_to 'Resume', resume_path%>
+	    </div>
+	    <div class='link-wrapper'>
+	      <a class=big-icons href=href='https://www.github.com/drews256'>
+                <i class='fa fa-github' aria-hidden='true' ></i>
+	      </a>
+              <a class='big-icons' href='https://www.linkedin.com/in/andrewstuntz/'>
+	        <i class='fa fa-linkedin' aria-hidden='true'></i>
+	      </a>
+ 	    </div>
+	  </div>
+	</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
