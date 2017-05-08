@@ -1,0 +1,42 @@
+<td class='quarter'>
+</td>
+<td class='half'>
+  <p id="notice"><%= notice %></p>
+
+  <h1>Git First Timers</h1>
+  <h3> There are lots of people that need help and want to make our community of software development open and inclusive.</h3>
+  <h3>This list displays the top 100 <em>Open</em> Issues with the 'first-timers-only' tag on Github.com.</h3>
+  <h3>That means this is a curated list of some of the best, most open, open source projects on the internet!</h3>
+  <table class='git-table'>
+    <thead>
+      <tr>
+        <th colspan="3"></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <% @first_timers_only_search_items.each_with_index do |git_first_timer, index| %>
+        <tr>
+          <td>
+            <h1><%= index+1 %> <%= git_first_timer[:title] %></h1>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href=<%= git_first_timer[:html_url] %> class='big-icons'>
+              <i class='fa fa-github' aria-hidden='true' ></i>
+              <span><p class='demarginify display-inline-block'>Find it on GitHub</p></span>
+            </a>
+          </td>
+        </tr>
+        <tr class='underline'>
+          <td>
+            <span><%= @markdown_renderer.render(git_first_timer[:body]).html_safe %></span>
+          </td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+
+  <br>
+</td>

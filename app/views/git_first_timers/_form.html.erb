@@ -1,0 +1,17 @@
+<%= form_with(model: git_first_timer, local: true) do |form| %>
+  <% if git_first_timer.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(git_first_timer.errors.count, "error") %> prohibited this git_first_timer from being saved:</h2>
+
+      <ul>
+      <% git_first_timer.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

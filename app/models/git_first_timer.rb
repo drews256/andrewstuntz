@@ -1,0 +1,2 @@
+class GitFirstTimer < ApplicationRecord
+end
